@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7493bd;
+  border-radius: .4rem;
+  width: 20rem;
+  margin: 8rem 0 8rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #ffff;
+  padding: 1.5rem;
+}
+
+form {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+label {
+  font-size: bold;
+}
+
+#name,
+#email,
+#password {
+  margin-bottom: 1rem;
+  border-radius: .3rem;
+  padding: .4rem;
+  background-color: rgba(240, 248, 255, 0.466);
+  border: 1px solid transparent;
+}
+
+span {
+  position: relative;
+  color: #b95c5c;
+  font-size: .75rem;
+  top: -.8rem;
+}
+
+button {
+  padding: .6rem;
+  border: transparent;
+  border-radius: .3rem;
+  background-color: rgb(162, 198, 229);
+  font-size: bold;
+  border: 1px solid transparent;
+  transition: .7s;
+  margin-bottom: 1rem;
+}
+button:hover{
+  background-color: #4c7bb9;
+  color: white;
+  border: 1px solid #7ea3d3;
+}
+
+.politica{
+   font-size: .8rem;
+   align-items: center;
+}
+
+.politica a {
+  text-decoration: none;
+}
+
+.error {
+  border: #b95c5c;
+}
+
+.success {
+  border: #5cb95c;
+}
